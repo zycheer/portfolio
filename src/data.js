@@ -6,9 +6,9 @@ export const profile = {
   phone: "0975-028-7261",
   phoneHref: "+639750287261",
   location: "Victoria, Laguna, Philippines",
-  photo: "/profile.jpg",   // put your resume photo at public/profile.jpg
-  resume: "/resume.pdf",   // put your resume at public/resume.pdf
-  socials: [],             // add { label, href } only when you have real profile links
+  photo: `${import.meta.env.BASE_URL}profile.jpg`,
+  resume: `${import.meta.env.BASE_URL}resume.pdf`,
+  socials: [],
 };
 
 export const nav = [
